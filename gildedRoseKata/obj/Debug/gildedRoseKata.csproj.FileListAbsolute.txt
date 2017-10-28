@@ -1,0 +1,7 @@
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\bin\Debug\gildedRoseKata.dll
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\bin\Debug\gildedRoseKata.pdb
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\bin\Debug\nunit.framework.dll
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\bin\Debug\nunit.framework.xml
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\obj\Debug\gildedRoseKata.csprojResolveAssemblyReference.cache
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\obj\Debug\gildedRoseKata.dll
+C:\Users\yonay\RiderProjects\gildedRoseKata\gildedRoseKata\obj\Debug\gildedRoseKata.pdb
