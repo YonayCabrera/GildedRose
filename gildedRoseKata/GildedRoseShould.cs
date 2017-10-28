@@ -59,5 +59,16 @@ namespace gildedRoseKata{
             
             Assert.AreEqual(50,item.Quality);
         }
+        
+        [Test]
+        public void have_not_drecreases_in_quality_item_sulfuras(){
+            CreateItem(name:"Sulfuras, Hand of Ragnaros", sellIn:10, quality:80);
+            items.Add(item);
+            
+            gildedRose.UpdateQuality();
+            
+            Assert.AreEqual(80,item.Quality);
+        }
+        
     }
 }
