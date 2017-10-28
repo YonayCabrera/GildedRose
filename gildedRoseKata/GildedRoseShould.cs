@@ -21,9 +21,6 @@ namespace gildedRoseKata{
 
         }
 
-        private void CreateItem(string name, int sellIn, int quality){
-            item = new Item(){Name = name, SellIn = sellIn, Quality = quality};
-        }
 
         [Test]
         public void when_sell_expired_quality_degrades_twice_as_fast(){
@@ -85,5 +82,19 @@ namespace gildedRoseKata{
             Assert.AreEqual(42,item.Quality);
         }
         
+        [Test]
+        public void have_to_increment_by_3_quality_item_Backstage_when_sellIn_is_5_days_or_less(){
+            CreateItem(name:bactstage, sellIn:5, quality:40);
+            items.Add(item);
+            
+            gildedRose.UpdateQuality();
+            
+            Assert.AreEqual(43,item.Quality);
+        }
+        
+        
+        private void CreateItem(string name, int sellIn, int quality){
+            item = new Item(){Name = name, SellIn = sellIn, Quality = quality};
+        }
     }
 }
